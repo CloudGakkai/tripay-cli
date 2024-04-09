@@ -1,8 +1,7 @@
 {
-  "name": "tripay-cli",
+  "name": "@cloudgakkai/tripay-cli",
   "version": "1.0.0",
   "description": "tripay-cli CLI",
-  "private": true,
   "types": "build/types/types.d.ts",
   "bin": {
     "tripay-cli": "bin/tripay-cli",
@@ -20,13 +19,7 @@
     "snapupdate": "jest --updateSnapshot",
     "coverage": "jest --coverage"
   },
-  "files": [
-    "build",
-    "LICENSE",
-    "readme.md",
-    "docs",
-    "bin"
-  ],
+  "files": ["build", "LICENSE", "readme.md", "docs", "bin"],
   "license": "MIT",
   "dependencies": {
     "date-fns": "^3.6.0",

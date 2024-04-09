@@ -7,7 +7,7 @@ Generate manuan payment link using command-line interface (CLI)
 ### Install
 
 ```bash
-npm install -g tripay-cli
+npm install -g @cloudgakkai/tripay-cli
 ```
 
 ### Config Merchant
